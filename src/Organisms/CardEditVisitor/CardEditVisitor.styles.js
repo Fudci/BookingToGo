@@ -1,0 +1,70 @@
+import {Colors} from '@helpers/Colors';
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container_gender: {
+    padding: 10,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: Colors.PLACEHOLDER,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    zIndex: -1,
+  },
+  text_input: {
+    flex: 1,
+    borderWidth: 1,
+    height: 40,
+    borderRadius: 6,
+    zIndex: -1,
+    borderColor: Colors.PLACEHOLDER,
+    color: Colors.PRIMARY_MAIN,
+    fontWeight:'600'
+  },
+  modal: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+    backgroundColor: 'rgba(52, 52, 52, 0.8)',
+  },
+  container: {
+    backgroundColor: 'white',
+    borderTopStartRadius: 20,
+    borderTopEndRadius: 20,
+    paddingTop: 20,
+    width: '100%',
+    paddingBottom: 20,
+    paddingHorizontal: 16,
+    gap: 10,
+  },
+  item_container: {
+    padding: 10,
+    borderWidth: 1,
+    borderColor: Colors.PLACEHOLDER,
+    borderRadius: 10,
+    alignItems: 'center',
+    width: '100%',
+  },
+  container: {
+    paddingHorizontal: 16,
+    flexDirection: 'row',
+    gap: 10,
+    alignItems: 'center',
+    marginTop: 10,
+    justifyContent: 'space-between',
+  },
+  container_modal: {
+    paddingHorizontal: 16,
+    gap: 10,
+    alignItems: 'center',
+    marginTop: 10,
+    justifyContent: 'space-between',
+    backgroundColor: 'white',
+    width: '100%',
+    paddingBottom: 10,
+    borderTopStartRadius: 10,
+    borderTopEndRadius: 10,
+    paddingTop: 10,
+  },
+});
